@@ -4,11 +4,11 @@ import { useState } from "react";
 import Reveal from "./Reveal";
 
 const services = [
-  "The Honest Hour — $60",
-  "Deep Tissue — $65",
-  "Hot Stone — $80 (75 min)",
-  "Foot Reflexology — $45 (45 min)",
-  "30-minute add-on — $25",
+  "Full Body Massage — from $50",
+  "Foot Massage — call for current rate",
+  "Shiatsu — call for current rate",
+  "Couples Massage — call for current rate",
+  "$10 off — first-time client",
   "Not sure — recommend something",
 ];
 
@@ -53,13 +53,13 @@ export default function Booking() {
                   Or, faster
                 </p>
                 <a
-                  href="tel:+16198253033"
+                  href="tel:+18583815959"
                   className="display mt-3 block text-[36px] leading-none text-ink hover:text-clay md:text-[44px]"
                 >
-                  (619) 825-3033
+                  (858) 381-5959
                 </a>
                 <p className="mt-3 text-[14px] text-mid">
-                  Picked up by a real person, every day, 9 AM – 10:30 PM.
+                  Picked up by a real person, every day, 9 AM – 9:30 PM.
                 </p>
               </div>
 
@@ -68,7 +68,7 @@ export default function Booking() {
                   Walk-ins
                 </p>
                 <p className="mt-3 text-[15px] text-ink-soft">
-                  6917 El Cajon Blvd, San Diego, CA 92115. Free lot in front.
+                  6979 El Cajon Blvd, San Diego, CA 92115. Free lot in front.
                   We can almost always fit you in within 30 minutes — try us.
                 </p>
               </div>
@@ -172,10 +172,10 @@ export default function Booking() {
                   <p className="mt-6 max-w-[44ch] text-[16px] text-ink-soft">
                     If you don't hear from us by tomorrow morning, please call{" "}
                     <a
-                      href="tel:+16198253033"
+                      href="tel:+18583815959"
                       className="link-underline text-ink"
                     >
-                      (619) 825-3033
+                      (858) 381-5959
                     </a>
                     . Sometimes texts don't make it through and we hate to keep
                     you waiting.

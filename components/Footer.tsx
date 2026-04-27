@@ -9,7 +9,7 @@ export default function Footer() {
             <Logo />
             <p className="mt-6 max-w-[36ch] text-[14px] leading-[1.7] text-ink-soft">
               A small, family-run massage studio on El Cajon Boulevard since
-              2014. Open every day, 9 AM to 10:30 PM. Walk-ins welcome.
+              2014. Open every day, 9 AM to 9:30 PM. Walk-ins welcome.
             </p>
             <a
               href="#booking"
@@ -24,7 +24,7 @@ export default function Footer() {
               Visit
             </p>
             <address className="mt-4 not-italic text-[14px] leading-[1.7] text-ink">
-              6917 El Cajon Blvd
+              6979 El Cajon Blvd
               <br />
               San Diego, CA 92115
             </address>
@@ -45,7 +45,7 @@ export default function Footer() {
             <p className="mt-4 text-[14px] leading-[1.7] text-ink">
               Mon – Sun
               <br />
-              9:00 AM – 10:30 PM
+              9:00 AM – 9:30 PM
             </p>
           </div>
 
@@ -54,10 +54,10 @@ export default function Footer() {
               Reach us
             </p>
             <a
-              href="tel:+16198253033"
+              href="tel:+18583815959"
               className="display mt-3 block text-[28px] leading-none text-ink"
             >
-              (619) 825-3033
+              (858) 381-5959
             </a>
             <ul className="mt-6 flex flex-col gap-2 text-[13px] text-ink-soft">
               <li>
@@ -86,7 +86,7 @@ export default function Footer() {
 
         <div className="mt-16 flex flex-col items-start justify-between gap-4 border-t border-hairline pt-8 text-[12px] text-mid md:flex-row md:items-center">
           <p>
-            © {new Date().getFullYear()} Feel Good Spa, LLC. All rights
+            © {new Date().getFullYear()} Pure Massage, LLC. All rights
             reserved.
           </p>
           <p>CAMTC certified · Cash & Apple Pay accepted</p>

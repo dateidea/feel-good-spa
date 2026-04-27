@@ -79,7 +79,7 @@ export default function Hero() {
             <p className="mt-8 max-w-[44ch] text-[17px] leading-[1.65] text-cream/80 md:text-[19px]">
               A small, family-run massage studio on El Cajon Boulevard. Sixty
               honest minutes — no membership, no upsell, no rushed handoff.
-              Open every day, 9 AM to 10:30 PM.
+              Open every day, 9 AM to 9:30 PM.
             </p>
 
             <div className="mt-10 flex flex-wrap items-center gap-6">
@@ -90,10 +90,10 @@ export default function Hero() {
                 Book a session
               </a>
               <a
-                href="tel:+16198253033"
+                href="tel:+18583815959"
                 className="link-underline text-[14px] tracking-[0.02em] text-cream/85"
               >
-                Or call (619) 825-3033
+                Or call (858) 381-5959
               </a>
             </div>
           </div>
@@ -102,7 +102,7 @@ export default function Hero() {
 
       {/* Bottom marker */}
       <div className="pointer-events-none absolute inset-x-0 bottom-6 mx-auto flex max-w-[1320px] items-end justify-between px-6 text-[11px] tracking-[0.18em] uppercase text-cream/55 md:px-10">
-        <span>Est. 2014 · 6917 El Cajon Blvd</span>
+        <span>Est. 2014 · 6979 El Cajon Blvd</span>
         <span aria-hidden className="hidden md:inline">
           Scroll ↓
         </span>

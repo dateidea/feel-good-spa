@@ -14,7 +14,7 @@ export default function About() {
           <Reveal className="col-span-12 md:col-span-5">
             <div
               role="img"
-              aria-label="Lin, founder, in the front room of Feel Good Spa, warm window light"
+              aria-label="Lin, founder, in the front room of Pure Massage, warm window light"
               className="img-placeholder relative aspect-[4/5] w-full overflow-hidden"
               style={{
                 backgroundImage: `url(${asset("/images/about-01.jpg")})`,

@@ -20,11 +20,11 @@ const SITE_URL = "https://feelgoodspa.com";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Feel Good Spa — Massage on El Cajon Boulevard, San Diego",
-    template: "%s · Feel Good Spa",
+    default: "Pure Massage — Massage on El Cajon Boulevard, San Diego",
+    template: "%s · Pure Massage",
   },
   description:
-    "A small, family-run massage studio on El Cajon Boulevard. Relaxing, deep tissue, hot stone, and reflexology. Open every day, 9 AM to 10:30 PM. Walk-ins welcome.",
+    "A small, family-run massage studio on El Cajon Boulevard. Relaxing, deep tissue, hot stone, and reflexology. Open every day, 9 AM to 9:30 PM. Walk-ins welcome.",
   keywords: [
     "massage San Diego",
     "El Cajon Blvd massage",
@@ -35,11 +35,11 @@ export const metadata: Metadata = {
     "College Area massage",
   ],
   openGraph: {
-    title: "Feel Good Spa — Massage on El Cajon Boulevard",
+    title: "Pure Massage — Massage on El Cajon Boulevard",
     description:
       "An unhurried hour. Quiet hands. Warm room. Open daily 9–10:30 on El Cajon Boulevard.",
     url: SITE_URL,
-    siteName: "Feel Good Spa",
+    siteName: "Pure Massage",
     locale: "en_US",
     type: "website",
     images: [
@@ -47,13 +47,13 @@ export const metadata: Metadata = {
         url: "/images/og-01.jpg",
         width: 1200,
         height: 630,
-        alt: "Feel Good Spa — quiet, warm treatment room on El Cajon Boulevard",
+        alt: "Pure Massage — quiet, warm treatment room on El Cajon Boulevard",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Feel Good Spa — Massage on El Cajon Boulevard",
+    title: "Pure Massage — Massage on El Cajon Boulevard",
     description:
       "An unhurried hour. Quiet hands. Warm room. Open daily 9–10:30.",
     images: ["/images/og-01.jpg"],
@@ -82,14 +82,14 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "MassageTherapy",
               "@id": `${SITE_URL}/#business`,
-              name: "Feel Good Spa",
+              name: "Pure Massage",
               image: `${SITE_URL}/images/hero-01.jpg`,
               url: SITE_URL,
-              telephone: "+16198253033",
+              telephone: "+18583815959",
               priceRange: "$$",
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "6917 El Cajon Blvd",
+                streetAddress: "6979 El Cajon Blvd",
                 addressLocality: "San Diego",
                 addressRegion: "CA",
                 postalCode: "92115",
@@ -113,10 +113,10 @@ export default function RootLayout({
                     "Sunday",
                   ],
                   opens: "09:00",
-                  closes: "22:30",
+                  closes: "21:30",
                 },
               ],
-              paymentAccepted: "Cash, Apple Pay",
+              paymentAccepted: "Cash, Credit Card",
               hasMap:
                 "https://www.google.com/maps/place/Feel+Good+Spa/@32.7682228,-117.0489569,17z",
             }),

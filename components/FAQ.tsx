@@ -13,8 +13,8 @@ const faqs: QA[] = [
         Both are fine. Walk-ins are honestly welcome — there's almost always
         an opening within thirty minutes if you arrive before 8 PM. If you
         want a specific time or therapist, please call ahead at{" "}
-        <a className="link-underline" href="tel:+16198253033">
-          (619) 825-3033
+        <a className="link-underline" href="tel:+18583815959">
+          (858) 381-5959
         </a>
         .
       </>
@@ -49,7 +49,7 @@ const faqs: QA[] = [
     a: (
       <>
         Yes. The last appointment is taken at 9:30 PM and the doors lock at
-        10:30 PM. If you're coming late after a shift, please call so we can
+        9:30 PM. If you're coming late after a shift, please call so we can
         keep someone on for you.
       </>
     ),

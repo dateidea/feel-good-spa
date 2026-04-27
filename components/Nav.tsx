@@ -70,12 +70,12 @@ export default function Nav() {
           ))}
           <li>
             <a
-              href="tel:+16198253033"
+              href="tel:+18583815959"
               className={`text-[14px] tracking-[0.01em] ${
                 scrolled ? "text-ink-soft" : "text-cream/85"
               }`}
             >
-              (619) 825-3033
+              (858) 381-5959
             </a>
           </li>
           <li>
@@ -147,10 +147,10 @@ export default function Nav() {
           </ul>
           <div className="flex flex-col gap-4">
             <a
-              href="tel:+16198253033"
+              href="tel:+18583815959"
               className="display text-[28px] text-ink"
             >
-              (619) 825-3033
+              (858) 381-5959
             </a>
             <a
               href="#booking"
@@ -160,7 +160,7 @@ export default function Nav() {
               Book a session
             </a>
             <p className="text-[12px] text-mid">
-              6917 El Cajon Blvd · Open 9 AM – 10:30 PM, daily
+              6979 El Cajon Blvd · Open 9 AM – 9:30 PM, daily
             </p>
           </div>
         </div>
